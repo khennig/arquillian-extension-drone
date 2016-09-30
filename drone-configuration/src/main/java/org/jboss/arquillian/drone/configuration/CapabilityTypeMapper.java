@@ -41,7 +41,7 @@ public class CapabilityTypeMapper {
     static {
         TYPE_MAP = new HashMap<String, ValueMapper<?>>();
 
-        // Common read-write capabilities (https://code.google.com/p/selenium/wiki/DesiredCapabilities#Read-write_capabilities)
+        // Common read-write capabilities (https://github.com/SeleniumHQ/selenium/wiki/DesiredCapabilities#read-write-capabilities)
         TYPE_MAP.put("acceptSslCerts", BooleanValueMapper.INSTANCE);
         TYPE_MAP.put("applicationCacheEnabled", BooleanValueMapper.INSTANCE);
         TYPE_MAP.put("browserConnectionEnabled", BooleanValueMapper.INSTANCE);
